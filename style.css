@@ -3,10 +3,36 @@
     margin: 0%;
     box-sizing: border-box;
 }
-.nav{
-    width: 100%;
-    font-family:serif;
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+  }
+.header{
+    font-family: monospace;
+    background-color: #1e90ff;
+    height: 100px;
     text-align: center;
-    color: rgb(241, 234, 234);
-    background-color: blue;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+    width:85%;
+    padding-top: 20px;
+   
+
+}
+.nav-link{
+    font-weight: 500;
+    padding-left: 5px;
+}
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 2% 2%;
+
+}
+.nav-link ul li a{
+    text-decoration: none;
+    
 }
